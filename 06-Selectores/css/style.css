@@ -1,0 +1,11 @@
+
+#botoncito:hover {
+    background-color: green;
+    color: white;
+}
+#botoncito::before {
+    content: "Pasa por encima"
+}
+#botoncito:hover::before {
+    content: "¡Hecho!"
+}
